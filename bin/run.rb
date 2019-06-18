@@ -1,5 +1,5 @@
 require_relative '../config/environment'
+require_relative "../lib/cli.rb"
 
-
-
-puts "HELLO WORLD"
+cli = CommandLineInterface.new
+cli.greet
